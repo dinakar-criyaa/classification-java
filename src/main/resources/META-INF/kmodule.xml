@@ -1,0 +1,9 @@
+<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="classification-default-000" default="false" eventProcessingMode="stream" equalsBehavior="equality">
+    <ksession name="classification-session-default-000" type="stateless" default="false" clockType="realtime"/>
+  </kbase>
+  <kbase name="classification-test-000" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="*">
+    <ksession name="test-sess-000" type="stateless" default="false" clockType="realtime"/>
+    <ksession name="test-sess-001" type="stateful" default="true" clockType="realtime"/>
+  </kbase>
+</kmodule>
