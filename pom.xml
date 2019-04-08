@@ -11,6 +11,26 @@
   <properties>
     <version>7.0.0.GA-redhat-2</version>
   </properties>
+
+<repositories>
+   <repository>
+      <id>com.cloudvirga.maven</id>
+         <name>com.cloudvirga.maven</name>
+         <url>https://s3-us-west-1.amazonaws.com/com.cloudvirga.maven/release</url>
+   </repository>
+</repositories>
+
+<distributionManagement>
+   <repository>
+      <id>com.skyline.maven</id>
+      <url>https://s3-us-west-1.amazonaws.com/com.cloudvirga.maven/release </url>
+   </repository>
+   <snapshotRepository>
+      <id>com.cloudvirga.maven</id>
+      <url>https://s3-us-west-1.amazonaws.com/com.cloudvirga.maven/snapshot</url>
+   </snapshotRepository>
+</distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
