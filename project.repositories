@@ -16,5 +16,21 @@
         <source>PROJECT</source>
       </metadata>
     </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>com.cloudvirga.maven</id>
+        <url>https://s3-us-west-1.amazonaws.com/com.cloudvirga.maven/snapshot</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>com.cloudvirga.maven</id>
+        <url>https://s3-us-west-1.amazonaws.com/com.cloudvirga.maven/release</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
   </repositories>
 </project-repositories>
